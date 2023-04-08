@@ -1,0 +1,13 @@
+﻿@model Person
+
+<form asp-controller="Home" asp-action="Result" method="post" role="form">
+
+    <label asp-for="UserName">User Name:</label>   
+    <input asp-for="UserName"/>
+
+    <label asp-for="Age">Age:</label> 
+    <input asp-for="Age"/>
+
+    <input type="submit" />
+</form>   
+
